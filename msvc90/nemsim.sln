@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simcore", "simcore\simcore.vcproj", "{62F5F20C-AC04-45B4-B240-81BC99E66411}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libnemsim", "libnemsim\libnemsim.vcproj", "{970B0AC2-0E7D-4BE7-89F9-746741907F74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62F5F20C-AC04-45B4-B240-81BC99E66411}.Debug|Win32.ActiveCfg = Debug|Win32
+		{62F5F20C-AC04-45B4-B240-81BC99E66411}.Debug|Win32.Build.0 = Debug|Win32
+		{62F5F20C-AC04-45B4-B240-81BC99E66411}.Release|Win32.ActiveCfg = Release|Win32
+		{62F5F20C-AC04-45B4-B240-81BC99E66411}.Release|Win32.Build.0 = Release|Win32
+		{970B0AC2-0E7D-4BE7-89F9-746741907F74}.Debug|Win32.ActiveCfg = Debug|Win32
+		{970B0AC2-0E7D-4BE7-89F9-746741907F74}.Debug|Win32.Build.0 = Debug|Win32
+		{970B0AC2-0E7D-4BE7-89F9-746741907F74}.Release|Win32.ActiveCfg = Release|Win32
+		{970B0AC2-0E7D-4BE7-89F9-746741907F74}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
