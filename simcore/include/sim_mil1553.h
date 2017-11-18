@@ -1,6 +1,8 @@
 #ifndef __SIM_MIL1553_H__
 #define __SIM_MIL1553_H__
 
+#include "sim_types.h"
+
 /* направление обмена */
 #define SD_RCV    0    /* BC-->RT */
 #define SD_TRX    1    /* RT-->BC */

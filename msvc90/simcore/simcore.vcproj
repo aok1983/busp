@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\simcore\include;..\..\simcore\include\iniserver;..\..\simcore\include\logserver;..\..\simcore\include\tmspy;..\..\libnemsim\include"
+				AdditionalIncludeDirectories="..\..\simcore\include;..\..\simcore\include\iniserver;..\..\simcore\include\logserver;..\..\simcore\include\tmspy;..\..\libnemsim\include;..\..\test\include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -246,6 +246,46 @@
 		<Filter
 			Name="test"
 			>
+			<Filter
+				Name="include"
+				>
+				<File
+					RelativePath="..\..\test\include\cmocka.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\test\include\cmocka_pbc.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\test\include\test.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\test\include\test_mil1553.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\test\include\test_suba.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="sources"
+				>
+				<File
+					RelativePath="..\..\test\sources\test.c"
+					>
+				</File>
+				<File
+					RelativePath="..\..\test\sources\test_mil1553.c"
+					>
+				</File>
+				<File
+					RelativePath="..\..\test\sources\test_suba.c"
+					>
+				</File>
+			</Filter>
 		</Filter>
 	</Files>
 	<Globals>
